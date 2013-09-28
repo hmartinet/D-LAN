@@ -8,7 +8,7 @@ Standards-Version: 3.9.2
 
 
 Package: d-lan-all-in-one
-Architecture: _ARCH_
+Architecture: any
 Section: network
 Depends: libprotobuf7 (_DEP_PROTOBUF_), libqtcore4 (_DEP_QTCORE_), libqtgui4 (_DEP_QTGUI_), 
          libqt4-network (_DEP_QTNETWORK_), libc6 (_DEP_LIBC_), libstdc++6 (_DEP_LIBSTDCPP_), 

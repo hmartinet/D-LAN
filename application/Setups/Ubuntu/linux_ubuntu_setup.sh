@@ -60,7 +60,5 @@ sed -i "s/_DEP_LIBGCC_/$DEP_LIBGCC/g" $CONTROL
 #vdate=$(echo $version | cut -d' ' -f 3)
 
 #sed -i "s/_VERSION_/$vhead-$vtag/g" $DEB_DIR/DEBIAN/control
-$arch=$(arch)
-sed -i "s/_ARCH_/$arch/g" $CONTROL
  
 rm -Rf $WORK_DIR/temp
