@@ -1,0 +1,19 @@
+Source: d-lan-all-in-one
+Section: network
+Priority: optional
+Maintainer: Hervé Martinet <herve.martinet@gmail.com>
+Homepage: http://www.d-lan.net
+Build-Depends: debhelper (>= 7), qt4-dev-tools (>= 4:4.8), libprotoc-dev (>= 2.4)
+Standards-Version: 3.9.2
+
+
+Package: d-lan-all-in-one
+Section: network
+Depends: libprotobuf7 (_DEP_PROTOBUF_), libqtcore4 (_DEP_QTCORE_), libqtgui4 (_DEP_QTGUI_), 
+         libqt4-network (_DEP_QTNETWORK_), libc6 (_DEP_LIBC_), libstdc++6 (_DEP_LIBSTDCPP_), 
+         libgcc1 (_DEP_LIBGCC_)
+Description: A free LAN file sharing software. 
+ The goal is to easily exchange a large amount of data 
+ in a local area network environment like a LAN-Party. 
+ After you launched D-LAN, you will see all other people and their 
+ sharing automatically without special configuration.

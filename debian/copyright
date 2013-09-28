@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: D-LAN
+Upstream-Contact: Greg Burri <greg.burri@gmail.com>
+Source: https://github.com/Ummon/D-LAN
+
+Files: *
+Copyright: 2010-2013 Greg Burri
+License: GPL-3

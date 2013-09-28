@@ -1,0 +1,8 @@
+styles/* /usr/share/d-lan/
+translations/*.qm /usr/share/d-lan/
+Core/output/release/* /usr/share/d-lan/
+GUI/output/release/* /usr/share/d-lan/
+Installations/packaging/icons/* /usr/share/icons/hicolor/
+application/Setups/Ubuntu/etc /
+application/Setups/Ubuntu/d-lan.desktop /usr/share/applications/
+
