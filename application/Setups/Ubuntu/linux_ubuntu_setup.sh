@@ -23,8 +23,6 @@ ICON_256_DIR=$ICON_DIR/256x256/apps
 #GUI_FILE=$DIR/GUI/output/release/D-LAN.GUI
 ICON_FILE=$DIR/Common/ressources/icon.ico
 
-sudo rm -Rf $WORK_DIR
-
 # Default dependencies, it may change depending the architecture and the Linux distribution.
 DEP_QTCORE=">= 4:4.8"
 DEP_QTGUI=">= 4:4.8"

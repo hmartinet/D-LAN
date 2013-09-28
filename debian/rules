@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
+clean:
+	sudo rm -Rf Installations/packaging
+
 build:
 	application/Setups/Ubuntu/linux_ubuntu_setup.sh
