@@ -5,3 +5,4 @@ clean:
 
 build:
 	application/Setups/Ubuntu/linux_ubuntu_setup.sh
+	dh $@
