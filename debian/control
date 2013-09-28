@@ -3,7 +3,7 @@ Section: network
 Priority: optional
 Maintainer: Hervé Martinet <herve.martinet@gmail.com>
 Homepage: http://www.d-lan.net
-Build-Depends: debhelper (>= 7), qt4-dev-tools (>= 4:4.8), libprotoc-dev (>= 2.4)
+Build-Depends: debhelper (>= 7), qt4-dev-tools (>= 4:4.8), libprotoc-dev (>= 2.4), imagemagick
 Standards-Version: 3.9.2
 
 
