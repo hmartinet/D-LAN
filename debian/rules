@@ -7,10 +7,10 @@ build-arch:
 build-indep:
 
 binary:
-	application/Setups/Ubuntu/linux_ubuntu_setup.sh
-	dh $@
 
-binary-arch: 
+binary-arch:
+	applications/1.regen_all.sh
+	application/Setups/Ubuntu/linux_ubuntu_setup.sh
 
 binary-indep:
 
