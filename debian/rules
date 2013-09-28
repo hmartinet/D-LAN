@@ -1,8 +1,18 @@
 #!/usr/bin/make -f
 
-clean:
-	rm -Rf Installations/packaging
-
 build:
+
+build-arch: 
+
+build-indep:
+
+binary:
 	application/Setups/Ubuntu/linux_ubuntu_setup.sh
 	dh $@
+
+binary-arch: 
+
+binary-indep:
+
+clean:
+	rm -Rf Installations/packaging
