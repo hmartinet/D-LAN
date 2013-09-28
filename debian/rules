@@ -1,18 +1,13 @@
 #!/usr/bin/make -f
 
-build:
+%:
+    	dh $@
 
-build-arch: 
-
-build-indep:
-
-binary:
-
-binary-arch:
+override_dh_binary_arch:
+	dh_binary_arch
 	applications/1.regen_all.sh
 	application/Setups/Ubuntu/linux_ubuntu_setup.sh
 
-binary-indep:
-
-clean:
+override_dh_clean:
+	dh_clean
 	rm -Rf Installations/packaging
