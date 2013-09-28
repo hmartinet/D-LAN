@@ -18,19 +18,17 @@ do
    TS_FILES_CORE="$TS_FILES_CORE d_lan_core.$Lang.ts"
 done
 
-lupdate -no-ui-lines -codecfortr UTF-8 ../GUI ../Common/RemoteCoreController -ts $TS_FILES_GUI
-lupdate -no-ui-lines -codecfortr UTF-8 ../Core -ts $TS_FILES_CORE
+lupdate-qt4 -no-ui-lines -codecfortr UTF-8 ../GUI ../Common/RemoteCoreController -ts $TS_FILES_GUI
+lupdate-qt4 -no-ui-lines -codecfortr UTF-8 ../Core -ts $TS_FILES_CORE
 
 for SubSystem in GUI Core
 do
-   mkdir ../$SubSystem/output
-   mkdir ../$SubSystem/output/debug
-   mkdir ../$SubSystem/output/debug/$QM_DIR
+   mkdir -p ../$SubSystem/output/debug/$QM_DIR
 done
 
 rm *.qm
 
-lrelease *.ts
+lrelease-qt4 *.ts
 
 cp *gui*.qm ../GUI/output/debug/$QM_DIR
 cp *core*.qm ../Core/output/debug/$QM_DIR
