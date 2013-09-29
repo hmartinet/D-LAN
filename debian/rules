@@ -4,8 +4,8 @@
 
 override_dh_auto_build:
 	dh_auto_build
-	application/1.regen_all.sh
-	applciation/Setups/Ubuntu/linux_ubuntu_setup.sh
+	cd application && 1.regen_all.sh
+	cd application/Setups/Ubuntu && linux_ubuntu_setup.sh
 
 override_dh_clean:
 	dh_clean
