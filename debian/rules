@@ -4,6 +4,7 @@
 
 override_dh_auto_build:
 	dh_auto_build
+	pwd
 	cd ../applications
 	1.regen_all.sh
 	cd Setups/Ubuntu
