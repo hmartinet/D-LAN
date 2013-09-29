@@ -2,7 +2,7 @@
 %:
 	dh $@
 
-override_dh_binary_arch:
+override_dh_auto_build:
 	dh_binary_arch
 	applications/1.regen_all.sh
 	application/Setups/Ubuntu/linux_ubuntu_setup.sh
